@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Demo Web Designing </title>
+	<style>
+			table{				<!-- This is internal CSS -->
+				border: 1px solid black;
+				}
+				th{border: 1px solid black;}
+				td{border : 1px solid black;}
+	</style>
+</head>
+<body>
+<a href="BlogMe.html"> Go to Blog Post</a>
+<!-- Headdings -->
+	<h1> This is my First Practicle</h1>
+	<h2> This is my First Practicle</h2>
+	<h3> This is my First Practicle</h3>
+	<h4> This is my First Practicle</h4>
+	<h5> This is my First Practicle</h5>
+	<h6> This is my First Practicle</h6>
+	
+<!-- Horizontal Line -->	
+	<hr width="100%">
+	
+<!-- paragraph, bold, break, strong, big, small [small is mainly used to give date to the article.] -->	
+	<p class="well"> <b>This project is an application-based shopping system for an existing shop.</b>
+	</br>The project objective is to deliver the online shopping application into android platform.</br>
+  	Online shopping <strong>is the process whereby consumers directly buy vegetables or services from a</strong> seller in real-time,
+	without an intermediary service, over the Internet.</br> It is a form of electronic commerce.</br>
+	This project <big>is an attempt to provide the advantages of online vegetable </big>shopping to customers of a real market.</br> 
+	It helps buying the products in the shop anywhere through internet by using an android device.</br> 
+	Thus, <small>the customer will get the service of online vegetable shopping </small>and home delivery as per his requirements
+	</p>
+	
+<!-- Emphasize or Italic -->
+	<p>
+		Online shopping is the process whereby consumers directly buy vegetables or services from a seller in real-time,
+		without an intermediary service,over the Internet. </br>
+		<strong>It is a form of electronic commerce.</strong>			
+		This project is an attempt to provide the advantages of online vegetable shopping to customers of a real market.</br> 
+		It helps buying the products in the shop anywhere through internet by using an android device.
+		Thus,the customer will get the service of <em>online vegetable shopping and home delivery</em> as per his requirements.
+	</p>	
+
+<!-- image, height, width, alternate to image if path is missing -->
+	<img src="Images/HackMe.jpeg" height="200px" width="300px"  alt="Image is not loaded due to some technical problem">
+	
+<!-- Anchor [href : Used to define Hyperlink of another webpage] -->	
+	<a href="www.edureka.co">This is the link for website</a>
+
+<!-- Ordered List -->
+	<h1> This is the list of best countries in the world</h1>
+	<ol>
+		<li> India </li><!-- li is used to store the items of list -->
+		<li> Austrelia</li>
+		<li> New zeland</li>
+		<li> America</li>
+		<li> Rasia</li>
+		<li> Greese</li>	
+	</ol> 
+	
+<!--Unordered List -->	
+	<h1> These are Top 5 computer languages</h1>
+	<ul>
+		<li> Python </li>
+		<li> JavaScript</li>
+		<li> SQL</li>
+		<li> Core Java</li>
+		<li> Kotlin </li>
+	</ul>
+	
+<!-- Description List: dt means TERM nad dd means DESCRIPTION -->
+	<dl>
+		<dt>Reactjs</dt>
+			<dd>React is an open-source, front end, JavaScript library for building user interfaces or UI components.</br>
+				It is maintained by Facebook and a community of individual developers and companies.
+				React can be used as a base in the development of single-page or mobile applications.</dd>
+		<dt>Nodejs</dt>
+			<dd>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine 
+				and executes JavaScript code outside a web browser.</dd>
+	</dl>
+	
+<hr>
+
+<!-- Form -->
+	<form class="well">
+		<div id="Reg_Form">
+			<h1 align="center"> Registration Form For Student</h1>
+			 <b>First Name: <input type="text" align="center" placeholder="Enter the First Name" required >* (All'*'signed fields must be fill)</br></br>
+			 <b>Last Name: <input type="text" align="center" placeholder="Enter the Last Name" required >* (required means its mandatory field)
+			 <!-- type="text" means we get textbox, align is for alignment, placeholder is used to assign removable instruction-->
+		 </div>
+		 </br>
+		 <div> <!-- one of the use of div is to take values at separate line -->
+			 <label for="gender">Gender:</label> &nbsp;<!-- label for titling and a&nbsp for space in the same line -->
+			 <input type="radio" name="gender">Male <!-- type="radio" is used to get radio button and note that name will be same for all buttons -->
+			 <input type="radio" name="gender">Female
+			 <input type="radio" name="gender">Other
+		 </div></br>
+		 <div>
+			 <label for="Enter Email">Email :</label>&nbsp; &nbsp;
+			 <input type="text" placeholder="xyz@gmail.com" size="30" required ></br></br>
+			 <label for="Password">Password :</label>&nbsp; &nbsp;
+			 <input type="password" size="30" required ><!-- type="password" for invisible text typing for security purpose -->
+		 </div></br>
+		 <div>
+		 <label For="Birthday">Birthday:</label> &nbsp;
+		 <select><!-- Select one option from the given list -->
+			 <option>Month</option>
+			 <option>Jan</option>
+			 <option>Feb</option>
+			 <option>March</option>
+			 <option>April</option>
+			 <option>May</option>
+			 <option>June</option>
+			 <option>July</option>
+			 <option>Aug</option>
+			 <option>Sept</option>
+			 <option>Oct</option>
+			 <option>Nov</option>
+			 <option>Dec</option>
+		 </select>
+		 &nbsp;
+		 &nbsp;
+		 <select>
+			 <option>Day</option>
+			 <option>1</option>
+			 <option>2</option>
+			 <option>3</option>
+			 <option>4</option>
+			 <option>5</option>
+			 <option>6</option>
+			 <option>7</option>
+			 <option>8</option>
+			 <option>9</option>
+			 <option>10</option>
+			 <option>11</option>
+			 <option>12</option>
+			 <option>13</option>
+			 <option>14</option>
+			 <option>15</option>
+			 <option>16</option>
+			 <option>17</option>
+			 <option>18</option>
+			 <option>19</option>
+			 <option>20</option>
+			 <option>21</option>
+			 <option>22</option>
+			 <option>23</option>
+			 <option>24</option>
+			 <option>25</option>
+			 <option>26</option>
+			 <option>27</option>
+			 <option>28</option>
+			 <option>29</option>
+			 <option>30</option>
+			 <option>31</option>
+		 </select>
+		 &nbsp; &nbsp;
+		 <select>
+		 <option>Year</option>
+			 <option>1990</option>
+			 <option>1991</option>
+			 <option>1992</option>
+			 <option>1993</option>
+			 <option>1994</option>
+			 <option>1995</option>
+			 <option>1996</option>
+			 <option>1997</option>
+			 <option>1998</option>
+			 <option>1999</option>
+			 <option>2000</option>
+			 <option>2001</option>
+			 <option>2002</option>
+			 <option>2003</option>
+			 <option>2004</option>
+			 <option>2005</option>
+			 <option>2006</option>
+			 <option>2007</option>
+			 <option>2008</option>
+			 <option>2009</option>
+			 <option>2010</option>
+			 <option>2011</option>        <!-- "required" is used when we want to make any field mandatory -->
+			 <option>2012</option>
+			 <option>2013</option>
+			 <option>2014</option>
+			 <option>2015</option>
+			 <option>2016</option>
+			 <option>2017</option>
+			 <option>2018</option>
+			 <option>2019</option>
+			 <option>2020</option>
+		 </select>
+		 </div></br>
+		 <div>
+			 <label for="comment"> Comments:</label>
+			 <input type="textarea" rows="8">
+		 </div>
+		 <div>
+			 <label for="Agree with all conditions"> Agree with all terms and conditions:</label>
+			 <input type="checkbox" required ></br></br>
+			 <button type="submit">Submit</button>
+		 </div>
+	</form><hr>
+	
+<!-- table generation -->	
+<h1 align="center"> Class Results</h1>
+<table align="center">
+		<thead> <!-- thead is a title row -->
+			<th>Roll No</th> <!-- th means each heading in that row -->
+			<th> Name </th>
+			<th> Marathi</th>
+			<th> Hindi </th>
+			<th> English </th>
+			<th> Total </th>
+		</thead>
+		
+		<tr><!-- tr means every row  -->
+			<td> 401</td><!-- td means each column -->
+			<td>Babar Ganesh</td>
+			<td> 98</td>
+			<td>87</td>
+			<td>75</td>
+			<td>260</td>
+			
+		</tr>
+		<tr>
+			<td> 402</td>
+			<td>Elon Musk</td>
+			<td> 88</td>
+			<td>67</td>
+			<td>65</td>
+			<td>220</td>
+			
+		</tr>
+		<tr>
+			<td> 403</td>
+			<td>Mark Zukerberg</td>
+			<td> 68</td>
+			<td>56</td>
+			<td>75</td>
+			<td>199</td>
+			
+		</tr>
+		<tr>
+			<td> 404</td>
+			<td>Pichai Sunder</td>
+			<td> 96</td>
+			<td>87</td>
+			<td>72</td>
+			<td>255</td>
+			
+		</tr>
+		
+</table>
+<hr>
+
+<!-- blockquote -->
+<blockquote cite="https://www.livescience.com/why-pet-dogs-cats-race-around.html"><!-- blockquote is mainly used when we want to take article from another third party source.
+                 And we have to inform this to the browser -->
+	<h3>Why do dogs and cats run around in random bursts of speed?</h3>
+		<p>One moment a pup is peacefully eating kibble, and the next it's running around the house like 
+		there's a fire burning under its tail. These episodes of "zoomies" last for up to several minutes,
+		but they can feel much longer when a dog bulldozes through a crowded home</p>
+</blockquote>
+
+<!-- Abbrevation -->
+	<p> The <abbr title="World Wide Web">WWW</abbr> is the most impotant term in the digital generation</p>
+<!-- abbr is mainly used to display the suggetion -->
+
+</body
+
+</html>
