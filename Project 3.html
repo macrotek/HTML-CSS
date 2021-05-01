@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>ColRowSpan</title>
+		<style>
+			th,td{border:1px solid black;
+				border-collapse:collapse;
+				padding:5px;
+			}
+			tr:nth-child(odd){background-color:yellow;}
+		</style>
+	</head>
+	<body>
+		<table style="border: 1px solid black;">
+			<tr>
+				<th>Index</th>
+				<th>Name</th>
+				<th colspan="2">Department</th>
+				<th rowspan="2">Age</th>
+			</tr>
+			<tr>
+				<td>01</td>
+				<td>Ganesh</td>
+				<td>Computer Science</td>
+				<td>23</td>
+			</tr>
+			<td>02</td>
+			<td>Vishwajit</td>
+			<td>Mechanical</td>
+			<td>24</td>
+		</table>
+	</body>
+</html>
